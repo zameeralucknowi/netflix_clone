@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url('./assests/images/bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    position: relative;
+    background-size: (1000px, 100vw);
+}
+
+.main .box {
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.65;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100vw;
+    margin: auto;
+    height: 80px;
+}
+
+nav img {
+    width: 135px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    gap: 20px;
+    padding: 0px 30px;
+}
+
+.hero> :nth-child(1) {
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.btn {
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+.btn-red {
+    background-color: red;
+    padding: 9px 35px;
+    font-size: 22px;
+    margin: 0px 12px;
+    color: white;
+}
+
+.btn-red-sm {
+    background-color: red;
+    margin: 0px 25px;
+    color: white;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email input {
+    padding: 16px 104px 9px 9px;
+    background-color: rgba(23, 23, 23, 0.7);
+    font-size: 15px;
+    border: 1px solid rgba(239, 235, 235, 0.4);
+    color: white;
+}
+
+.separation {
+    height: 5px;
+    background-color: rgba(161, 157, 157, 0.4);
+    width: 100%;
+}
+
+.first {
+    display: flex;
+    max-width: 80vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.first .text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first .text> :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Poppins", sans-serif;
+}
+
+.first .text> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.sec-img {
+    position: relative;
+}
+
+.sec-img img {
+    position: relative;
+    z-index: 8;
+}
+
+.sec-img video {
+    position: absolute;
+    left: 86px;
+    top: 95px;
+}
+
+.faq h2 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 45px 0px 20px 0px;
+}
+
+.faq-item {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(68, 67, 67);
+    max-width: 75vw;
+    height: 65px;
+    margin: auto;
+    margin-bottom: 8px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.faq-item :nth-child(1) {
+    padding-left: 35px;
+}
+
+.faq-item :nth-child(2) {
+    padding-right: 20px;
+}
+
+.last-text {
+    padding-top: 50px;
+}
+
+.last-text h3 {
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.footer-btn {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.container {
+    padding-top: 70px;
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.boxes .box {
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.box span p {
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+#india {
+    padding-bottom: 80px;
+}
